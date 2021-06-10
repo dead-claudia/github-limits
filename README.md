@@ -55,6 +55,21 @@ Note: longer team names will still validate, they will just be truncated.
 
 *The first was verified through a support email. The second was verified by creating an issue in an empty repo.*
 
+#### Issue title
+
+- Min length: 1 character
+- Max length: 256 characters
+
+*The first verified by creating an issue with a very long title and confirmed with an error message.*
+
+
+#### Issue description
+
+- Min length: 1 character
+- Max length: 65536 characters
+
+*The first verified by creating an issue with a very long description and confirmed with an error message.*
+
 ## Contributing
 
 If you find limits to something not listed here, please feel free to [file an issue](https://github.com/isiahmeadows/github-limits/issues/new) with details about the limits. Alternatively, you could [edit this file](https://github.com/isiahmeadows/github-limits/edit/master/README.md) and file a pull request. I do need three things for each entry, though:
