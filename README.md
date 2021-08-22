@@ -64,15 +64,6 @@ Note: leading/trailing whitespace will still validate, they will just be trimmed
 
 *This was verified through checking validation messages and input when attempting to change the profile url.*
 
-#### Profile Twitter usernames
-
-- Max length: 15 characters
-- All characters must be either an underscore (`_`), or alphanumeric
-
-Note: leading/trailing whitespace will still validate, they will just be trimmed.
-
-*This was verified through checking validation messages and input when attempting to change the profile twitter username.*
-
 #### Profile companies
 
 - Max length: 255 characters
