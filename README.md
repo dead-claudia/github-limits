@@ -40,6 +40,46 @@ Note: longer team names will still validate, they will just be truncated.
 
 *This was verified through a support email.*
 
+#### Profile names
+
+- Max length: 255 characters
+
+Note: leading/trailing whitespace will still validate, they will just be trimmed on the profile page.
+
+*This was verified through checking validation messages and input when attempting to change the profile name.*
+
+#### Profile bios
+
+- Max length: 160 characters
+
+Note: leading/trailing whitespace will still validate, they will just be trimmed on the profile page.
+
+*This was verified through checking validation messages and input when attempting to change the profile bio.*
+
+#### Profile URLs
+
+- Max length: 255 characters
+
+Note: leading/trailing whitespace will still validate, they will just be trimmed on the profile page.
+
+*This was verified through checking validation messages and input when attempting to change the profile url.*
+
+#### Profile companies
+
+- Max length: 255 characters
+
+Note: leading/trailing whitespace will still validate, they will just be trimmed on the profile page.
+
+*This was verified through checking validation messages and input when attempting to change the profile company.*
+
+#### Profile locations
+
+- Max length: 255 characters
+
+Note: leading/trailing whitespace will still validate, they will just be trimmed.
+
+*This was verified through checking validation messages and input when attempting to change the profile location.*
+
 #### Repository names
 
 - Max length: 100 characters
