@@ -82,9 +82,12 @@ Note: leading/trailing whitespace will still validate, they will just be trimmed
 
 #### Repository names
 
-- Max length: 100 characters
-- All characters must be either a hyphen (`-`), a period (`.`), or alphanumeric
+- Max length: 100 code points
+- All code points must be either a hyphen (`-`), an underscore (`_`), a period (`.`), or an ASCII alphanumeric code point
 - Must be unique per-user and/or per-organization
+
+Note: sequences of invalid code points are automatically replaced by a single hyphen (`-`)
+Note: length checking is performed after replacement
 
 *This was verified through checking automatically-generated aliases with repository names.*
 
