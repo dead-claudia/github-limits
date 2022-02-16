@@ -85,6 +85,7 @@ Note: leading/trailing whitespace will still validate, they will just be trimmed
 - Max length: 100 code points
 - All code points must be either a hyphen (`-`), an underscore (`_`), a period (`.`), or an ASCII alphanumeric code point
 - Must be unique per-user and/or per-organization
+- The repository names containing only a single period (`.`) or double period (`..`) are reserved
 
 Note: sequences of invalid code points are automatically replaced by a single hyphen (`-`)
 Note: length checking is performed after replacement
