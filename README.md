@@ -102,7 +102,7 @@ Note: length checking is performed after replacement
 #### Issue title
 
 - Min length: 1 character
-- Max length: 256 characters
+- Max length: 1024 characters
 
 *The first verified by creating an issue with a very long title and confirmed with an error message.*
 
