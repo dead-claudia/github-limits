@@ -4,6 +4,8 @@ A collection of various string/numeric limits with GitHub. Not all of these are 
 
 *Note: these do **not** include things like [GraphQL resource limits](https://developer.github.com/v4/guides/resource-limitations/), [REST rate limits](https://developer.github.com/v3/rate_limit/) and [disk quotas](https://help.github.com/articles/what-is-my-disk-quota/), things that are about resource usage, rather than simple strings or numbers.*
 
+> If you're wondering why the commit history is sparse, it *is* actively maintained, but I mainly rely on others filing [issues and pull requests](#contributing). If you learn something, please, by all means, reach out!
+
 ## List of limits
 
 Each limit carries the full set of relevant restrictions, as well as where I gained the information from.
@@ -116,7 +118,7 @@ Note: length checking is performed after replacement
 
 ## Contributing
 
-If you find limits to something not listed here, please feel free to [file an issue](https://github.com/isiahmeadows/github-limits/issues/new) with details about the limits. Alternatively, you could [edit this file](https://github.com/isiahmeadows/github-limits/edit/master/README.md) and file a pull request. I do need three things for each entry, though:
+If you find limits to something not listed here, please feel free to [file an issue](https://github.com/dead-claudia/github-limits/issues/new) with details about the limits. Alternatively, you could [edit this file](https://github.com/dead-claudia/github-limits/edit/master/README.md) and file a pull request. I do need three things for each entry, though:
 
 - The entry itself.
 - Any relevant constraints, including max length, permitted characters, etc.
@@ -126,4 +128,4 @@ Also, these are only confirmed with the public GitHub site. If there's a differe
 
 ## License
 
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+Copyright © 2024, Claudia Meadows and others. <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
