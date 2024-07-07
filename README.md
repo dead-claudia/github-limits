@@ -64,7 +64,7 @@ Note: leading/trailing whitespace will still validate, they will just be trimmed
 
 Note: leading/trailing whitespace will still validate, they will just be trimmed on the profile page.
 
-*This was verified through checking validation messages and input when attempting to change the profile url.*
+*This was verified through checking validation messages and input when attempting to change the profile URL.*
 
 #### Profile companies
 
@@ -115,6 +115,19 @@ Note: length checking is performed after replacement
 - Max length: 65536 characters
 
 *The first verified by creating an issue with a very long description and confirmed with an error message.*
+
+#### List of starred items
+
+- Maximum number of lists in starred items: 32 lists
+- Maximum number of starred project per list: unknown, but over 500 starred items
+- Minimum length of the description: 1 character.
+- Maximum length for a list name: 32 characters.
+- Minimum length of the description: 0 characters.
+- Maximum length of the description: 160 characters.
+
+*First one was verified by creating 32 lists. (Confirmed [here](https://github.com/orgs/community/discussions/8633#discussioncomment-2631870.)).*
+*Second one is unknown, there are lists with at least 500 items.*
+*Others can be easily checked when creating a list.*
 
 ## Contributing
 
