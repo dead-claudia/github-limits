@@ -119,7 +119,7 @@ Note: length checking is performed after replacement
 
 #### PR body 
 
-- Min length: 1 character
+- Min length: 0 characters
 - Max length: 262144 characters
 
 *This was verified by making PATCH requests to `/repos/{owner}/{repo}/pulls/{pull_number}` with `"body"` in body.*
