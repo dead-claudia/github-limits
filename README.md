@@ -116,6 +116,14 @@ Note: length checking is performed after replacement
 
 *The first verified by creating an issue with a very long description and confirmed with an error message.*
 
+
+#### PR body 
+
+- Min length: 1 character
+- Max length: 262144 characters
+
+*This was verified by making PATCH requests to `/repos/{owner}/{repo}/pulls/{pull_number}` with `"body"` in body.*
+
 #### List of starred items
 
 - Maximum number of lists in starred items: 32 lists
