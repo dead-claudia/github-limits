@@ -122,8 +122,7 @@ Note: length checking is performed after replacement
 - Min length: 0 characters
 - Max length: 262144 characters
 
-*This was verified by making PATCH requests to `/repos/{owner}/{repo}/pulls/{pull_number}` with `"body"` in body.*
-*This was also verified by adding longer body (262,145 characters) to a PR body in UI and confirmed with the error: `There was an error posting your comment: Body is too long`.
+*This was verified by making PATCH requests to `/repos/{owner}/{repo}/pulls/{pull_number}` with `"body"` in body. This was also verified by adding longer body (262,145 characters) to a PR body in UI and confirmed with the error: `There was an error posting your comment: Body is too long`.*
 
 
 #### List of starred items
