@@ -86,10 +86,12 @@ Note: leading/trailing whitespace will still validate, they will just be trimmed
 
 - Max length: 100 code points
 - All code points must be either a hyphen (`-`), an underscore (`_`), a period (`.`), or an ASCII alphanumeric code point
+- Can not end with `.git`
 - Must be unique per-user and/or per-organization
 - The repository names containing only a single period (`.`) or double period (`..`) are reserved
 
 Note: sequences of invalid code points are automatically replaced by a single hyphen (`-`)
+Note: `.git` suffixes are automatically removed (replaced by an empty string)
 Note: length checking is performed after replacement
 
 *This was verified through checking automatically-generated aliases with repository names.*
