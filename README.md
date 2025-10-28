@@ -113,10 +113,11 @@ Note: length checking is performed after replacement
 
 #### Issue description
 
-- Min length: 1 character
+- Min length: 0 characters
 - Max length: 65536 characters
 
-*The first verified by creating an issue with a very long description and confirmed with an error message.*
+*The first was verified by creating an issue with an empty description in the UI*
+*The second verified by creating an issue with a very long description and confirmed with an error message.*
 
 
 #### PR body 
