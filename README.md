@@ -128,8 +128,8 @@ Note: length checking is performed after replacement
 
 ### Issue comments
 
-- min length: 1 character
-- Max length: 262144 bytes (65536~262144 characters depending on utf8-encoded size)
+- Min length: 1 character
+- Max length: 262144 bytes (65536-262144 characters depending on UTF8-encoded size)
 
 *This was verified by POST-ing bodies of various sizes to a dummy issue via the V3 API.*
 
