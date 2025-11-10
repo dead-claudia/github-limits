@@ -114,7 +114,7 @@ Note: length checking is performed after replacement
 #### Issue description
 
 - Min length: 1 character
-- Max length: 65536 characters
+- Max length: 65536 codepoints
 
 *The first verified by creating an issue with a very long description and confirmed with an error message.*
 
@@ -122,7 +122,7 @@ Note: length checking is performed after replacement
 #### PR body 
 
 - Min length: 0 characters
-- Max length: 262144 bytes
+- Max length: 65536 codepoints
 
 *This was verified by making PATCH requests to `/repos/{owner}/{repo}/pulls/{pull_number}` with `"body"` in body. This was also verified by adding longer body (262,145 characters) to a PR body in UI and confirmed with the error: `There was an error posting your comment: Body is too long`.*
 
